@@ -1,8 +1,8 @@
 <template>
     <header class="header-global">
-        <base-nav class="navbar-main" transparent type="" effect="light" expand>
+        <base-nav class="navbar-main" transparent type="" effect="light" expand v-on:scroll="handleScroll">
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="img/brand/white.png" alt="logo">
+                <img src="img/brand/white1.png" alt="logo">
             </router-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
@@ -79,7 +79,18 @@ export default {
     BaseNav,
     CloseButton,
     BaseDropdown
-  }
+  },
+    data(){
+      return {
+          scrolled: false
+      }
+    },
+    methods: {
+      handleScroll(){
+          console.log(window.scrollY);
+          this.scrolled = window.scrollY > 0;
+      }
+    }
 };
 </script>
 <style>
