@@ -63,7 +63,11 @@
 }
 
 .btn-neutral {
-    color: theme-color("primary");
+    color: $blue-psg;
+}
+
+.btn-neutral:hover{
+    color: $gold-psg;
 }
 
 // Icons

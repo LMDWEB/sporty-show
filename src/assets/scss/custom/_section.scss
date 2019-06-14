@@ -1,3 +1,16 @@
+
+/******************************************************
+
+                // Banner-Sporty
+
+**************************************************** */
+
+.banner-sporty {
+    margin-top: 310px;
+    margin-left: 71px;
+}
+
+
 .section {
     position: relative;
     padding-top: $spacer * 4;
@@ -27,6 +40,284 @@
     }
 }
 
+/**********************************************************************
+
+                    // Prologue section
+
+******************************************************************* */
+.prologue {
+    margin-top: 80px;
+
+    .btn-primary:hover{
+        background-color: #CEAB5D;
+        border-color: #CEAB5D;
+    }
+
+    .text-success{
+        color: #CEAB5D !important;
+    }
+}
+
+.btn-sporty{
+    background-color: #004170;
+    border-color: #004170;
+}
+
+.main {
+    position: relative;
+    background: #FFFFFF;
+
+    img{
+        max-width: 100%;
+        border-radius: 1px;
+    }
+}
+
+.section-images {
+    max-height: 670px;
+    height: 670px;
+}
+
+.section-images .hero-images-container,
+.section-images .hero-images-container-1,
+.section-images .hero-images-container-2 {
+    margin-top: -16vh;
+}
+
+.section-images .hero-images-container {
+    max-width: 670px;
+}
+
+.section-images .hero-images-container-1 {
+    max-width: 390px;
+    position: absolute;
+    top: 55%;
+    right: 18%;
+}
+
+.section-images .hero-images-container-2 {
+    max-width: 225px;
+    position: absolute;
+    top: 68%;
+    right: 12%;
+}
+
+@media screen and (max-width: 991px){
+
+    .section-images {
+        height: 500px;
+        max-height: 500px;
+    }
+    .section-images .hero-images-container {
+        max-width: 500px;
+    }
+    .section-images .hero-images-container-1 {
+        right: 10%;
+        top: 68%;
+        max-width: 269px;
+    }
+    .section-images .hero-images-container-2 {
+        right: 5%;
+        max-width: 135px;
+        top: 93%;
+    }
+
+}
+
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .section-images .hero-images-container-1 {
+        right: 9%;
+        max-width: 370px;
+    }
+    .section-images .hero-images-container-2 {
+        right: 2%;
+        max-width: 216px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-images {
+        height: 300px;
+        max-height: 300px;
+    }
+    .section-images .hero-images-container {
+        max-width: 380px;
+    }
+    .section-images .hero-images-container-1 {
+        right: 7%;
+        top: 87%;
+        max-width: 210px;
+    }
+    .section-images .hero-images-container-2 {
+        right: 1%;
+        max-width: 133px;
+        top: 99%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .section-images .hero-images-container-1 {
+        top: 51%;
+        right: 21%;
+    }
+    .section-images .hero-images-container-2 {
+        top: 66%;
+        right: 14%;
+    }
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .section-images .hero-images-container,
+    .section-images .hero-images-container-1,
+    .section-images .hero-images-container-2 {
+        margin-top: -15vh;
+        margin-left: 80px;
+    }
+    .section-images .hero-images-container {
+        max-width: 300px;
+    }
+    .section-images .hero-images-container-1 {
+        right: 28%;
+        top: 40%;
+    }
+    .section-images .hero-images-container-2 {
+        right: 21%;
+        top: 55%;
+    }
+}
+
+
+/*********************************************************************
+
+                    // Section Team
+
+******************************************************************* */
+
+.team-section {
+    margin-left: 96px;
+
+}
+
+.bg-gradient-gold{
+    background-image: linear-gradient(to top, #ffffff, #efddf8, #f1b5e1, #f78ab7, #f65d7d, #ed4860, #e03442, #d12122, #ca1b25, #c21528, #ba0f2a, #b20a2c);
+}
+
+
+
+
+
+.main-banner{
+    margin-left: 100px;
+
+    .img-fluid{
+        width: 310px;
+    }
+}
+
+.page-header {
+    min-height: 100vh;
+    max-height: 999px;
+    padding: 0;
+    color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-header>.content {
+    margin-top: 12%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.page-header.page-header-small {
+    min-height: 60vh;
+    max-height: 440px;
+}
+
+.page-header:before {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.page-header>.container {
+    z-index: 2;
+    padding-top: 12vh;
+    padding-bottom: 40px;
+}
+
+.page-header .page-header-image {
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.page-header .content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 880px;
+}
+
+.page-header footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.page-header .container {
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+}
+
+.page-header .category,
+.page-header .description {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.page-header:after,
+.page-header:before {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    content: "";
+}
+
+.clear-filter:after,
+.clear-filter:before {
+    display: none;
+}
+
+.clear-filter[filter-color="orange"] {
+    background: rgba(44, 44, 44, 0.2);
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(to bottom, #ffffffa8, #eeedfabd, #dadcf57a, #c5cbf159, #acbced7d, #96ace173, #809cd4c4, #688dc8b8, #5279b1b5, #3c669bc2, #235385b8, #004170e0);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to bottom, #ffffffa8, #eeedfabd, #dadcf57a, #c5cbf159, #acbced7d, #96ace173, #809cd4c4, #688dc8b8, #5279b1b5, #3c669bc2, #235385b8, #004170e0);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-llinear-gradient(to bottom, #ffffffa8, #eeedfabd, #dadcf57a, #c5cbf159, #acbced7d, #96ace173, #809cd4c4, #688dc8b8, #5279b1b5, #3c669bc2, #235385b8, #004170e0);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #ffffffa8, #eeedfabd, #dadcf57a, #c5cbf159, #acbced7d, #96ace173, #809cd4c4, #688dc8b8, #5279b1b5, #3c669bc2, #235385b8, #004170e0);
+    /* Standard syntax */
+}
+
 // Circle sections
 .section-shaped {
     margin: 180px 0;
@@ -52,7 +343,12 @@
             padding-top: 6rem;
             padding-bottom: 0rem;
             height: 100%;
+            /*float: left;
+            margin-top: 50px;
+            margin-left: 60px;*/
         }
+
+
 
         &.shape-skew {
 
@@ -69,6 +365,8 @@
                 padding-bottom: 19rem;
             }
         }
+
+
     }
 
     .shape-skew {
@@ -80,9 +378,19 @@
         }
     }
 
+    .shape-skew2 {
+        transform: skewY(8deg);
+        transform-origin: 0;
+
+        span {
+            transform: skew(-8deg);
+        }
+    }
+
     // Color variations
     .shape-primary {
-        background: linear-gradient(150deg, shapes-primary-color("step-1-gradient-bg") 15%, shapes-primary-color("step-2-gradient-bg") 70%, shapes-primary-color("step-3-gradient-bg") 94%);
+        background: linear-gradient(to bottom, #ffffff, #eeedfa, #dadcf5, #c5cbf1, #acbced, #96ace1, #809cd4, #688dc8, #5279b1, #3c669b, #235385, #004170);
+                /*linear-gradient(150deg, shapes-primary-color("step-1-gradient-bg") 15%, shapes-primary-color("step-2-gradient-bg") 70%, shapes-primary-color("step-3-gradient-bg") 94%);*/
 
         :nth-child(1) {
             background: shapes-primary-color("span-1-bg");
@@ -106,7 +414,8 @@
     }
 
     .shape-default {
-        background: linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);
+        background: linear-gradient(to bottom, #ffffff, #eeedfa, #dadcf5, #c5cbf1, #acbced, #96ace1, #809cd4, #688dc8, #5279b1, #3c669b, #235385, #004170);
+                /*linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);*/
 
          :nth-child(1) {
             background: shapes-default-color("span-1-bg");
@@ -154,7 +463,8 @@
     }
 
     .shape-dark {
-        background: linear-gradient(150deg, shapes-dark-color("step-1-gradient-bg") 15%, shapes-dark-color("step-2-gradient-bg") 70%, shapes-dark-color("step-3-gradient-bg") 94%);
+        background: linear-gradient(to top, #ffffff, #efddf8, #f1b5e1, #f78ab7, #f65d7d, #ed4860, #e03442, #d12122, #ca1b25, #c21528, #ba0f2a, #b20a2c);
+                /*linear-gradient(150deg, shapes-dark-color("step-1-gradient-bg") 15%, shapes-dark-color("step-2-gradient-bg") 70%, shapes-dark-color("step-3-gradient-bg") 94%);*/
 
          :nth-child(1) {
             background: shapes-dark-color("span-1-bg");
@@ -243,10 +553,10 @@
         :nth-child(6) {
             width: 200px;
             height: 200px;
-            top: 44%;
-            left: 10%;
+            top: 66%;
+            left: 22%;
             right: auto;
-            background: rgba(255, 255, 255, .15);
+            background: rgba(255, 255, 255, 0.15);
         }
 
         :nth-child(7) {
@@ -286,13 +596,27 @@
             }
         }
 
+        // football player shape
+
+        .player-shape{
+            float: right;
+            display: inline-block;
+        }
+
+
         // shape color variations
         &.shape-primary {
-            background: linear-gradient(150deg, shapes-primary-color("step-1-gradient-bg") 15%, shapes-primary-color("step-2-gradient-bg") 70%, shapes-primary-color("step-3-gradient-bg") 94%);
+
+            background-image: url("C:/wamp64/www/sporty-show/public/img/theme/bg.jpeg");
+            background-position: center center;
+            background-size: cover;
+            /*background: linear-gradient(150deg, shapes-primary-color("step-1-gradient-bg") 15%, shapes-primary-color("step-2-gradient-bg") 70%, shapes-primary-color("step-3-gradient-bg") 94%);
+            background: linear-gradient(to bottom, #ffffff, #eeedfa, #dadcf5, #c5cbf1, #acbced, #96ace1, #809cd4, #688dc8, #5279b1, #3c669b, #235385, #004170);*/
         }
 
         &.shape-default {
-            background: linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);
+            background: linear-gradient(to bottom, #ffffff, #eeedfa, #dadcf5, #c5cbf1, #acbced, #96ace1, #809cd4, #688dc8, #5279b1, #3c669b, #235385, #004170);
+                    /*linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);*/
         }
 
         &.shape-light {
@@ -301,7 +625,7 @@
         }
 
         &.shape-dark {
-            background: linear-gradient(150deg, shapes-dark-color("step-1-gradient-bg") 15%, shapes-dark-color("step-2-gradient-bg") 70%, shapes-dark-color("step-3-gradient-bg") 94%);
+            background: linear-gradient(to top, #ffffff, #efddf8, #f1b5e1, #f78ab7, #f65d7d, #ed4860, #e03442, #d12122, #ca1b25, #c21528, #ba0f2a, #b20a2c);
         }
     }
 
