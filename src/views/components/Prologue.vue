@@ -10,7 +10,7 @@
                     <p class="lead">SportyManager propose un nouvel écosystème pour le marché du marketing digital sportif dont l'objectif est d'aider clubs et ligues
                         à développer leurs revenus commerciaux et maîtriser leur relation client!</p>
                     <div class="btn-wrapper">
-                        <a href="https://www.creative-tim.com/product/vue-argon-design-system" class="btn btn-primary btn-sporty mb-3 mb-sm-0 ">Download Sporty</a>
+                        <a href="https://api.lmdfoot.com/" class="btn btn-primary btn-sporty mb-3 mb-sm-0 ">Download Sporty</a>
                     </div>
                     <div class="text-center">
                         <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>

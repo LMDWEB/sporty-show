@@ -1,6 +1,6 @@
 <template>
     <section class="page-header clear-filter section-hero section-shaped my-0" filter-color="orange" >
-        <div class="page-header-image" data-parallax="true" style="background-image:url('img/theme/header.jpg');">
+        <div class="page-header-image" data-parallax="true" style="background-image:url('img/theme/bg.jpeg');">
         </div>
         <div class="shape shape-style-1 shape-primary">
             <span class="span-150"></span>

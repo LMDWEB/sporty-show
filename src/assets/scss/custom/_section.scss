@@ -607,7 +607,7 @@
         // shape color variations
         &.shape-primary {
 
-            background-image: url("C:/wamp64/www/sporty-show/public/img/theme/bg.jpeg");
+            background-image:url('/public/img/theme/bg.jpeg');
             background-position: center center;
             background-size: cover;
             /*background: linear-gradient(150deg, shapes-primary-color("step-1-gradient-bg") 15%, shapes-primary-color("step-2-gradient-bg") 70%, shapes-primary-color("step-3-gradient-bg") 94%);
