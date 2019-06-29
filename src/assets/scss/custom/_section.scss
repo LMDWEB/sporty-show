@@ -197,8 +197,18 @@
 
 .team-section {
     margin-left: 96px;
-
 }
+
+@media (max-width:670px) {
+    .team-section {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
 
 .bg-gradient-gold{
     background-image: linear-gradient(to top, #ffffff, #efddf8, #f1b5e1, #f78ab7, #f65d7d, #ed4860, #e03442, #d12122, #ca1b25, #c21528, #ba0f2a, #b20a2c);

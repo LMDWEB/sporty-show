@@ -1,8 +1,8 @@
 <template>
     <section class="section section-lg">
             <div class="row row-grid justify-content-center">
-                <div class="col-5">
-                <div class="col-lg-8 text-center prologue">
+                <div class="col-sm-10 col-md-5 col-lg-6">
+                <div class="col-sm-10 col-md-12 col-lg-12 text-center prologue">
 
                     <h2 class="display-3">Sporty' Desk
                         <span class="text-success">Simplifiez votre gestion</span>
