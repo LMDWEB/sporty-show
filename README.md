@@ -1,6 +1,6 @@
-Sporty Manager | Landing Page
+<h1 id="browser-support">Sporty Manager | Landing Page</h1>
 
-About
+<h2 id="browser-support">About</h2>
 
 SPORTY Manager is a new ecosystem, which allows to:
  - learn about the SportyManager Project
