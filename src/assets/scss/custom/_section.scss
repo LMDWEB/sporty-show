@@ -10,7 +10,20 @@
     margin-left: 71px;
 }
 
+.main-text{
+  margin-left : -30px;
+}
 
+.main-text img {
+  width: 35%;
+  margin-bottom: 15px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ceab5d;
+  border-color: #ceab5d;
+}
 .section {
     position: relative;
     padding-top: $spacer * 4;
@@ -84,6 +97,10 @@
     margin-top: -16vh;
 }
 
+.section-images .hero-images-container, .section-images .hero-images-container-1, .section-images .hero-images-container-2 {
+  margin-top: -18vh;
+}
+
 .section-images .hero-images-container {
     max-width: 670px;
 }
@@ -105,8 +122,8 @@
 @media screen and (max-width: 991px){
 
     .section-images {
-        height: 500px;
-        max-height: 500px;
+        height: 580px;
+        max-height: 580px;
     }
     .section-images .hero-images-container {
         max-width: 500px;
@@ -138,8 +155,8 @@
 
 @media screen and (max-width: 768px) {
     .section-images {
-        height: 300px;
-        max-height: 300px;
+        height: 500px;
+        max-height: 500px;
     }
     .section-images .hero-images-container {
         max-width: 380px;
@@ -154,6 +171,17 @@
         max-width: 133px;
         top: 99%;
     }
+
+  .section-images .hero-images-container,
+  .section-images .hero-images-container-1,
+  .section-images .hero-images-container-2 {
+    margin-top: -10vh;
+  }
+
+  .section-lg {
+    padding-top: 2rem;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -353,6 +381,7 @@
             padding-top: 6rem;
             padding-bottom: 0rem;
             height: 100%;
+            bottom : 200px;
             /*float: left;
             margin-top: 50px;
             margin-left: 60px;*/

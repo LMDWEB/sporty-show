@@ -18,7 +18,8 @@
         <div class="container shape-container d-flex banner-sporty">
             <div class="col px-0">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-10 col-lg-6 main-text">
+                        <img src="img/brand/LogoSportyManagerGold2.png" class="img-fluid floating">
                         <h1 class="display-3  text-white">SPORTY,un nouvel écosystème </h1>
                         <p class="lead  text-white">Pour le marché du marketing digital sportif dont l'objectif est d'aider clubs et ligues à développer leurs revenus commerciaux et maîtriser leur relation client.
                             <span> SPORTY, une plateforme,une base de données unique, un CRM, une solution originale.</span></p>
