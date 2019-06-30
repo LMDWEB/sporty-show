@@ -11,7 +11,8 @@
 }
 
 .main-text{
-  margin-left : -30px;
+    margin-left : -30px;
+    bottom: 210px;
 }
 
 .main-text img {
@@ -106,17 +107,17 @@
 }
 
 .section-images .hero-images-container-1 {
-    max-width: 390px;
+    max-width: 220px;
     position: absolute;
-    top: 55%;
-    right: 18%;
+    top: 68%;
+    right: 21%;
 }
 
 .section-images .hero-images-container-2 {
-    max-width: 225px;
+    max-width: 182px;
     position: absolute;
-    top: 68%;
-    right: 12%;
+    top: 66%;
+    right: 40%;
 }
 
 @media screen and (max-width: 991px){
@@ -159,23 +160,24 @@
         max-height: 500px;
     }
     .section-images .hero-images-container {
-        max-width: 380px;
+        max-width: 668px;
+        width: 669px;
     }
     .section-images .hero-images-container-1 {
-        right: 7%;
-        top: 87%;
-        max-width: 210px;
+        right: 25%;
+        top: 64%;
+        max-width: 186px;
     }
     .section-images .hero-images-container-2 {
-        right: 1%;
+        right: 41%;
         max-width: 133px;
-        top: 99%;
+        top: 81%;
     }
 
   .section-images .hero-images-container,
   .section-images .hero-images-container-1,
   .section-images .hero-images-container-2 {
-    margin-top: -10vh;
+    margin-top: -16vh;
   }
 
   .section-lg {
@@ -381,10 +383,6 @@
             padding-top: 6rem;
             padding-bottom: 0rem;
             height: 100%;
-            bottom : 200px;
-            /*float: left;
-            margin-top: 50px;
-            margin-left: 60px;*/
         }
 
 
