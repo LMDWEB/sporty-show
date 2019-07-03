@@ -25,22 +25,17 @@
                     <h4 class="mb-0 font-weight-light"> Restons en contact sur l'une de ces plateformes.</h4>
                 </div>
                 <div class="col-lg-6 text-lg-center btn-wrapper">
-                    <a target="_blank" rel="noopener" href="https://twitter.com/creativetim"
+                    <a target="_blank" rel="noopener" href="https://twitter.com/lmdpsg"
                        class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Follow us">
                         <i class="fa fa-twitter"></i>
                     </a>
-                    <a target="_blank" rel="noopener" href="https://www.facebook.com/creativetim"
+                    <a target="_blank" rel="noopener" href="https://www.facebook.com/LMDPSG/"
                        class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Like us">
                         <i class="fa fa-facebook-square"></i>
                     </a>
-                    <a target="_blank" rel="noopener" href="https://dribbble.com/creativetim"
-                       class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round" data-toggle="tooltip"
-                       data-original-title="Follow us">
-                        <i class="fa fa-dribbble"></i>
-                    </a>
-                    <a target="_blank" rel="noopener" href="https://github.com/creativetimofficial"
+                    <a target="_blank" rel="noopener" href="https://github.com/LMDWEB"
                        class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Star on Github">
                         <i class="fa fa-github"></i>

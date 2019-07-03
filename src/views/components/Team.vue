@@ -133,7 +133,7 @@
                                     worth billions of dollars, because I got the answers. I understand culture.</p>
                             </div>
                             <div class="col-lg-3 ml-lg-auto">
-                                <base-button tag="a" href="https://api.lmdfoot.com/"
+                                <base-button tag="a" href="https://lmdfoot.com/"
                                              type="white" block size="lg">
                                     Download Sporty
                                 </base-button>
